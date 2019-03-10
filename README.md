@@ -1,4 +1,4 @@
-# esp-micropython
+# ESP-micropython
 ESP32/ESP8266 micropython complete installation guide/ usuage
 
 This guide is to install micropython on esp32/esp8266
