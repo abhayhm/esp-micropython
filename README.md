@@ -131,7 +131,7 @@ Installation
 sudo apt-get install picocom
 ```
 
-#### Usuage:
+Usuage:
 
 If your computer is a PC and has the standard on-board RS-233 ports (usually accessible as two male DB9 connectors at the back) then under Linux these are accessed through device nodes most likely named: /dev/ttyS0 and /dev/ttyS1. If your computer has no on-board serial ports, then you will need a USB-to-Serial adapter (or something similar). Once inserted to a USB port and recognized by Linux, a device node is created for each serial port accessed through the adapter(s). These nodes are most likely named /dev/ttyUSB0, /dev/ttyUSB1, and so on. For other systems and other Unix-like OSes you will have to consult their documentation as to how the serial port device nodes are named. Lets assume your serial port is accessed through a device node named /dev/ttyS0.
 
