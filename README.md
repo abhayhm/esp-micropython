@@ -156,11 +156,11 @@ This means that you do not have permissions to access the serial port's device n
 sudo picocom /dev/ttyS0
 ```
 
-for more information please visit [this](https://github.com/npat-efault/picocom).
+for more information please visit [here](https://github.com/npat-efault/picocom).
 
 ## Authors
 
-* **Abhay HM** 
+**Abhay HM** 
 
 
 
