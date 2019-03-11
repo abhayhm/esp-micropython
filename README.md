@@ -111,6 +111,14 @@ BAUDRATE is the baud you use for serial communication (eg: 9600) which you used 
 
 -d (delay) is important because we need to synchronize your ESP board clock with youur terminal emulator.(here we are using 1 second delay).
 
+To put your scrip into ESP board
+
+```
+ampy -p PORT -b BAUDRATE -d 1 put boot.py boot.py
+```
+
+Here boot.py is the file name in your machine and second boot.py is the name of the same file to assign after it moves it to the ESP board(second boot.py is the file name in the board).Similarly we can use other commands.
+
 ## Terminal emulator
 
 This guide is to show how to run your scripts and get output.
@@ -156,7 +164,7 @@ This means that you do not have permissions to access the serial port's device n
 sudo picocom /dev/ttyS0
 ```
 
-for more information please visit [here](https://github.com/npat-efault/picocom).
+for more information on picocom please visit [here](https://github.com/npat-efault/picocom).
 
 ## Authors
 
